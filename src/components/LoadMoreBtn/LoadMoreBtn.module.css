@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  padding: 1rem 1.75rem;
+  margin-inline: auto;
+  background-color: rgb(var(--cl-dark) / 40%);
+  border-radius: 0.5rem;
+  transition: var(--trns);
+  transition-property: background-color, color;
+
+  &:hover,
+  &:focus {
+    color: rgb(var(--cl-white));
+    background-color: rgb(var(--cl-dark) / 80%);
+  }
+}
